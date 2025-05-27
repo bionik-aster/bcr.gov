@@ -40,3 +40,14 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+.header-container {
+    display: flex;
+    align-items: center; /* Ensures the emblem and text align vertically */
+}
+
+.emblem {
+    width: 80px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 15px; /* Adds space between the emblem and text */
+}
