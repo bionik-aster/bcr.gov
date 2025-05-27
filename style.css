@@ -19,7 +19,7 @@ header {
 nav {
     background-color: #600;
     padding: 10px;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
 }
