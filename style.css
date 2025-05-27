@@ -6,6 +6,10 @@ body {
     background-color: #f4f4f4;
 }
 
+.left {
+    text-align: left;
+}
+
 header {
     background-color: #900;
     color: white;
