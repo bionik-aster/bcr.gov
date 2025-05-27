@@ -46,6 +46,16 @@ footer {
     align-items: center; /* Ensures the emblem and text align vertically */
 }
 
+.title-group {
+    display: flex;
+    flex-direction: column; /*stack vertically */
+}
+
+.motto {
+    align-self: flex-start; /*move to where it starts*/
+    margin-left: 10px; /* <- fix if necessary*/
+}
+
 .emblem {
     width: 50px; /* Adjust the size as needed */
     height: auto;
