@@ -19,6 +19,9 @@ header {
 nav {
     background-color: #600;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav a {
@@ -26,6 +29,12 @@ nav a {
     text-decoration: none;
     padding: 10px;
     margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #600;
+    border-radius: 5px;
 }
 
 main {
