@@ -53,6 +53,7 @@ footer {
 .header-container {
     display: flex;
     align-items: center; /* Ensures the emblem and text align vertically */
+    flex-wrap: wrap;
 }
 
 .title-group {
@@ -77,4 +78,10 @@ footer {
     height: 1px;
     max-width: 1000px;
     background-color: #900;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-size:0.8rem;
+    }
 }
